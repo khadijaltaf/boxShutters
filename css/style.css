@@ -7277,7 +7277,8 @@ body {
   font-weight: 500;
   color: #999999; }
   body.offcanvas {
-    overflow-x: hidden; }
+    overflow-x: hidden;
+   }
     body.offcanvas #colorlib-aside {
       -moz-transform: translateX(0);
       -webkit-transform: translateX(0);
@@ -7285,7 +7286,7 @@ body {
       -o-transform: translateX(0);
       transform: translateX(0);
       width: 270px;
-      background: #fff;
+      background: #ccb78f;
       z-index: 999;
       position: fixed; }
     body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
@@ -7314,6 +7315,7 @@ h1, h2, h3, h4, h5,
   font-family: "Poppins", Arial, sans-serif; }
 
 #colorlib-page {
+  
   width: 100%;
   overflow: hidden;
   position: relative; }
@@ -7331,7 +7333,7 @@ h1, h2, h3, h4, h5,
   right: 0;
   overflow-y: hidden;
   z-index: 1001;
-  background: rgba(0, 0, 0, 0.04);
+  background: #ccb78f;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
@@ -7715,7 +7717,8 @@ h1, h2, h3, h4, h5,
     -o-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
-    transition: all 0.3s ease; }
+    transition: all 0.3s ease; 
+  }
   .photography-entry .text {
     opacity: 0;
     -moz-transition: all 0.3s ease;
@@ -8187,7 +8190,8 @@ textarea.form-control {
 
 .ftco-animate {
   opacity: 0;
-  visibility: hidden; }
+  visibility: hidden;
+ }
 
 .about-author img {
   -webkit-border-radius: 50%;
