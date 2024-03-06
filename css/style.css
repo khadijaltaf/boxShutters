@@ -3814,6 +3814,7 @@ input[type="button"].btn-block {
   padding: 0.75rem 1rem;
   margin-bottom: 1rem;
   list-style: none;
+  color: white;
   background-color: #e9ecef;
   border-radius: 0.25rem; }
 
@@ -7333,7 +7334,7 @@ h1, h2, h3, h4, h5,
   right: 0;
   overflow-y: hidden;
   z-index: 1001;
-  background: #ccb78f;
+  background-color: #50727B;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
@@ -8006,7 +8007,7 @@ h1, h2, h3, h4, h5,
         color: #ccb78f; }
 
 .ftco-bread {
-  background: #ccb78f !important;
+  background: #344955 !important;
   padding: 4em 1.8em !important; }
   .ftco-bread .breadcrumbs {
     text-transform: uppercase;
@@ -8204,7 +8205,9 @@ textarea.form-control {
 
 .ftco-section {
   padding: 5em 1.8em;
-  position: relative; }
+  position: relative; 
+  /* background-color: #78A083; */
+}
   @media (max-width: 991.98px) {
     .ftco-section {
       padding: 3em 0; } }
